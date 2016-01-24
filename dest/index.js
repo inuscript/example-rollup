@@ -13,6 +13,15 @@
     console.log(mod())
   }
 
-  return foo;
+  function baz(){
+    console.log("baz")
+    mod()
+  }
+
+  var index = { 
+    foo: foo, baz: baz
+  }
+
+  return index;
 
 }));

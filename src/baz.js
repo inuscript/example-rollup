@@ -1,4 +1,6 @@
 import mod from "./mod"
 
-console.log("baz")
-console.log(mod())
+export default function(){
+  console.log("baz")
+  mod()
+}
