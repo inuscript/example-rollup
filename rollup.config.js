@@ -1,5 +1,7 @@
 export default {
-  entry: "foo.js",
-  format: "cjs",
-  dest: "dist.js",
+  entry: "src/foo.js",
+  format: "umd",
+  dest: "dest/index.js",
+  moduleName: "foo",
+  moduleId: "foo"
 }
